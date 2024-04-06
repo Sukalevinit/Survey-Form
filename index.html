@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="center">
+        <h1>STUDENT SERVEY</h1>
+        <div class="details">
+            <label>College Name</label> <br>
+            <input type="text" name="school" id="sname"> <br><br>
+            <label>Student Name</label>
+            <div class="between">
+                <input type="text" name="stuname" placeholder="First Name" class="height">
+                <input type="text" name="stuname" placeholder="Middle Name" class="height" id="width">
+                <input type="text" name="stuname" placeholder="Last Name" class="height" id="width">
+            </div>
+            <br><br>
+            <label>Date</label>
+            <input type="date" class="height" id="space"> <br><br><br>
+            <label>How long have you been a student here?</label>
+            <select>
+                <option value="Please Select">Please Select</option>
+                <option value="Less Than Months">Less Than Months</option>
+                <option value="1-6 Months">1-6 Months</option>
+                <option value="6 Months to 1 Year">6 Months to 1 Year</option>
+                <option value="More Than 1 Year">More Than 1 Year</option>
+                <option value="1-3 Years">1-3 Years</option>
+                <option value="More Than 3 Years">More Than 3 Years</option>
+            </select>
+            <hr>
+
+            <h3 class="heading">Please rate the following aspects of your education.</h3>
+            <h3><p>Curriculum and Classes for the term</p></h3>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <th></th>
+                        <th>Strongly Disagree</th>
+                        <th>Disagree</th>
+                        <th>Neutral</th>
+                        <th>Agree</th>
+                        <th>Strongly Agree</th>
+                    </tr>
+                    <tr>
+                        <th><label>The class descriptions accurately described the content.</label></th>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>I was academically prepared for the classes.</label></th>
+                        <td><input type="radio" name="prepared" class="size"></td>
+                        <td><input type="radio" name="prepared" class="size"></td>
+                        <td><input type="radio" name="prepared" class="size"></td>
+                        <td><input type="radio" name="prepared" class="size"></td>
+                        <td><input type="radio" name="prepared" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>The class sizes were appropriate.</label></th>
+                        <td><input type="radio" name="appropriate" class="size"></td>
+                        <td><input type="radio" name="appropriate" class="size"></td>
+                        <td><input type="radio" name="appropriate" class="size"></td>
+                        <td><input type="radio" name="appropriate" class="size"></td>
+                        <td><input type="radio" name="appropriate" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>The classes started and ended on time.</label></th>
+                        <td><input type="radio" name="started" class="size"></td>
+                        <td><input type="radio" name="started" class="size"></td>
+                        <td><input type="radio" name="started" class="size"></td>
+                        <td><input type="radio" name="started" class="size"></td>
+                        <td><input type="radio" name="started" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>The classes increased my knowledge of the subject matter.</label></th>
+                        <td><input type="radio" name="knowledge" class="size"></td>
+                        <td><input type="radio" name="knowledge" class="size"></td>
+                        <td><input type="radio" name="knowledge" class="size"></td>
+                        <td><input type="radio" name="knowledge" class="size"></td>
+                        <td><input type="radio" name="knowledge" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>The overall quality of the classes was excellent.</label></th>
+                        <td><input type="radio" name="excellent" class="size"></td>
+                        <td><input type="radio" name="excellent" class="size"></td>
+                        <td><input type="radio" name="excellent" class="size"></td>
+                        <td><input type="radio" name="excellent" class="size"></td>
+                        <td><input type="radio" name="excellent" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>I would recommend these classes to other students.</label></th>
+                        <td><input type="radio" name="students" class="size"></td>
+                        <td><input type="radio" name="students" class="size"></td>
+                        <td><input type="radio" name="students" class="size"></td>
+                        <td><input type="radio" name="students" class="size"></td>
+                        <td><input type="radio" name="students" class="size"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br><br>
+            <h3><p>Materials</p></h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <th></th>
+                        <th>Strongly Disagree</th>
+                        <th>Disagree</th>
+                        <th>Neutral</th>
+                        <th>Agree</th>
+                        <th>Strongly Agree</th>
+                    </tr>
+                    <tr>
+                        <th><label>The objectives and requirements for the classes were clearly started.</label></th>
+                        <td><input type="radio" name="objectives" class="size"></td>
+                        <td><input type="radio" name="objectives" class="size"></td>
+                        <td><input type="radio" name="objectives" class="size"></td>
+                        <td><input type="radio" name="objectives" class="size"></td>
+                        <td><input type="radio" name="objectives" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>The textbooks and learning materials were relevant and useful.</label></th>
+                        <td><input type="radio" name="textbooks" class="size"></td>
+                        <td><input type="radio" name="textbooks" class="size"></td>
+                        <td><input type="radio" name="textbooks" class="size"></td>
+                        <td><input type="radio" name="textbooks" class="size"></td>
+                        <td><input type="radio" name="textbooks" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>Tests and assignments were based on materials covered in each class.</label></th>
+                        <td><input type="radio" name="Tests" class="size"></td>
+                        <td><input type="radio" name="Tests" class="size"></td>
+                        <td><input type="radio" name="Tests" class="size"></td>
+                        <td><input type="radio" name="Tests" class="size"></td>
+                        <td><input type="radio" name="Tests" class="size"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br><br>
+            <h3><p>Instruction</p></h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <th></th>
+                        <th>Strongly Disagree</th>
+                        <th>Disagree</th>
+                        <th>Neutral</th>
+                        <th>Agree</th>
+                        <th>Strongly Agree</th>
+                    </tr>
+                    <tr>
+                        <th><label>The instructions were qualified to teach these classes.</label></th>
+                        <td><input type="radio" name="instructions" class="size"></td>
+                        <td><input type="radio" name="instructions" class="size"></td>
+                        <td><input type="radio" name="instructions" class="size"></td>
+                        <td><input type="radio" name="instructions" class="size"></td>
+                        <td><input type="radio" name="instructions" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>The instructions demonstrated enthusiasm for the subject matter.</label></th>
+                        <td><input type="radio" name="subject" class="size"></td>
+                        <td><input type="radio" name="subject" class="size"></td>
+                        <td><input type="radio" name="subject" class="size"></td>
+                        <td><input type="radio" name="subject" class="size"></td>
+                        <td><input type="radio" name="subject" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>The instructions were available and helpful to students outside of class.</label></th>
+                        <td><input type="radio" name="helpful" class="size"></td>
+                        <td><input type="radio" name="helpful" class="size"></td>
+                        <td><input type="radio" name="helpful" class="size"></td>
+                        <td><input type="radio" name="helpful" class="size"></td>
+                        <td><input type="radio" name="helpful" class="size"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+            <h3><p>How likely are you to recommend our college to a friend or colleague?</p></h3>
+            <input type="radio" name="likely" class="size">&nbsp<label>Very Liklely</label> <br><br>
+            <input type="radio" name="likely" class="size">&nbsp<label>Somewhat Likely</label> <br><br>
+            <input type="radio" name="likely" class="size">&nbsp<label>Unsure</label> <br><br>
+            <input type="radio" name="likely" class="size">&nbsp<label>Not Very Liklely</label> <br><br>
+            <input type="radio" name="likely" class="size">&nbsp<label>Not Liklely</label> <br><br>
+            <h3><p>If not, why?</p></h3>
+            <textarea name="comments" id="comment"></textarea> <br><br>
+            <h3><p>What could we do to increase your level of satisfaction?</p></h3>
+            <textarea name="comments" id="comment"></textarea>
+            <hr>
+            <div class="button">
+                <button>Submit</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

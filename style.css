@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("back.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.center{
+    border: 2px solid black;
+    max-width: 60vw;
+    margin: auto;
+    background-color: #fff;
+}
+
+h1{
+    text-align: center;
+    padding: 40px;
+    margin: 13px 15px;
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
+.details{
+    padding: 15px 60px;
+}
+
+.details label{
+    font-size: 1cm;
+}
+
+.details #sname{
+    width: 96.5%;
+    height: 2.5vh;
+    padding: 10px;
+    font-size: 0.8rem;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-weight: 600;
+}
+
+.details .height{
+    height: 2.5vh;
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 1px solid gray;
+    width: 21vw;
+}
+
+.details .between{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 99.5%;
+}
+
+.details #space{
+    margin-top: 10px;
+}
+
+.details select{
+    height: 6vh;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+hr{
+    margin: 40px 0px;
+}
+
+.details .heading{
+    margin: 30px 0px;
+}
+
+.details p{
+    margin-bottom: 30px;
+}
+
+table{
+    border-collapse: collapse;
+    empty-cells: hide;
+    color: black;
+}
+
+table tbody td,th{
+    border: 2px solid #c3cad8;
+    padding: 10px;
+    width: 60%;
+}
+
+table tbody td{
+    text-align: center;
+}
+
+table tbody th{
+    font-size: 0.8rem;
+    background-color: #d4d4d4;
+}
+
+input[type="radio"]{
+    width: 25px;
+    height: 20px;
+}
+
+textarea{
+    padding: 10px;
+    font-size: 20px;
+    width: 670px;
+    height: 200px;
+    font-weight: 600;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 170px;
+    height: 46px;
+    background-color: #18bd5b;
+    border: 2px solid #18bd5b;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1cm;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #007a31;
+    border: 2px solid #007a31;
+}
